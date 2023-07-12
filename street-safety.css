@@ -81,3 +81,15 @@ body {
     display: block;
     margin-top: 5px;
 }
+
+.question_part {
+    margin-top: 35px;
+    display: flex;
+    border-bottom: 0.05px solid #DADCE0; 
+}
+
+.question_1 {
+    width: 336px;
+    height: 184px;
+    text-align: center;
+}
