@@ -423,3 +423,14 @@ body {
 .q3_positive {
     margin-left: auto;
 }
+
+
+
+/* 버튼 */
+
+.btn {
+    margin-top: 38.83px;
+    margin-bottom: 50px;
+    border: 0;
+    background-color: transparent;
+}
