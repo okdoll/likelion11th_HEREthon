@@ -58,4 +58,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
     updateButtonState(); // 페이지 로드 시 버튼 상태 초기화
   });
+
   
+
+
+// 버튼 클릭 시 다른 페이지로 이동하는 함수를 정의합니다.
+function redirectToCommentPage() {
+    window.location.href = "street-safety-comment.html";
+}
+
+const button = document.getElementById("img_btn");
+
+// 버튼 클릭 이벤트에 redirectToCommentPage 함수를 연결합니다.
+button.addEventListener("click", redirectToCommentPage);
