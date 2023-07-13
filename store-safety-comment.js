@@ -15,3 +15,21 @@ function handleInputChange() {
 }
 
 document.getElementById("input-text").addEventListener("input", handleInputChange);
+
+// back 버튼 화면 이동 코드
+function redirectToCommentPage() {
+    window.location.href = "store-safety.html";
+}
+const back_btn = document.getElementById("back_btn");
+// 버튼 클릭 이벤트에 redirectToCommentPage 함수를 연결합니다.
+back_btn.addEventListener("click", redirectToCommentPage);
+
+
+
+// 평가 완료 버튼 클릭 시 평가 상세보기 화면으로 넘어감
+function redirectToHome() {
+    window.location.href = "street-safety.html"; //여기에 평가 상세보기 html 파일명 입력
+}
+
+// 버튼 클릭 이벤트에 redirectToHome 함수를 연결합니다.
+button.addEventListener("click", redirectToHome);

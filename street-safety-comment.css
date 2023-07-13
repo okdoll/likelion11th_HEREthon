@@ -116,3 +116,14 @@ body {
     border: 0;
     background-color: transparent;
 }
+
+.btn_back {
+    margin-left: 27px;
+    margin-right: 104.58px;
+    margin-top: 6px;
+    width: 6.422px;
+    height: 12.844px;
+    flex-shrink: 0;
+    border: 0;
+    background-color: transparent;
+}

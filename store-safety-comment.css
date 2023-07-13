@@ -82,8 +82,6 @@ body {
     margin-top: 5px;
 }
 
-
-
 .input-container {
     width: 336px;
     height: 235px;
@@ -114,6 +112,19 @@ body {
 .btn {
     margin-top: 38.83px;
     margin-bottom: 50px;
+    border: 0;
+    background-color: transparent;
+}
+
+
+
+.btn_back {
+    margin-left: 27px;
+    margin-right: 104.58px;
+    margin-top: 6px;
+    width: 6.422px;
+    height: 12.844px;
+    flex-shrink: 0;
     border: 0;
     background-color: transparent;
 }
